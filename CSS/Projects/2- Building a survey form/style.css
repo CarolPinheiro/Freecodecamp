@@ -1,0 +1,19 @@
+.center{
+    text-align: center;
+}
+
+#title {
+    font-family: 'Anton', sans-serif;
+    font-size: 42px;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image {
+    width: 200px;
+    max-width: 100%;
+}
