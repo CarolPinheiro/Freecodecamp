@@ -1,0 +1,9 @@
+function factorialize(num) {
+  let count = 0;
+  for (let i = num; i > 0; i--) {
+    count === 0? count = i : count *=i
+  }
+  return num === 0 ? 1 : count;
+}
+
+factorialize(5);

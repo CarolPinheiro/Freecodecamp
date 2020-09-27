@@ -1,0 +1,7 @@
+function mutation(arr) {
+  const firstWord = arr[0].toLowerCase()
+  const secondWord = Array.from(arr[1].toLowerCase())
+  return !secondWord.map(e => firstWord.indexOf(e)).includes(-1)
+}
+
+mutation(["hello", "hey"]);

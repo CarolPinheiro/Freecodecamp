@@ -1,0 +1,6 @@
+function confirmEnding(str, target) {
+  const parenthesis = `(${target})`
+ return new RegExp(parenthesis+'$', '').test(str)
+}
+
+confirmEnding("Bastian", "n");
