@@ -1,0 +1,19 @@
+function sumAll(arr) {
+  let result = 0
+  const maxNumber = arr.reduce((acc, att)=> {
+    acc >att ? acc : acc = att
+    return acc
+    }, 0)
+    const minNumber = arr.reduce((acc, att)=> {
+    acc<att ? acc : acc = att
+    return acc
+    })
+
+    for(let i=minNumber; i<=maxNumber ; i++) {
+      result+=i
+    }
+    
+  return result;
+}
+
+sumAll([5,10]);

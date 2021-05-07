@@ -1,0 +1,8 @@
+// Only change code below this line
+function urlSlug(title) {
+const splitResult = title.toLowerCase().split(" ");
+
+return splitResult.filter(e=> e !== "").join("-")
+
+}
+// Only change code above this line
